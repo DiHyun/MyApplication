@@ -9,7 +9,7 @@ public class MainActivity extends AppCompatActivity {
         public static void main(String[] args) {
             Scanner input = new Scanner(System.in);
             System.out.println("Welcome to Word Guessing Game!");
-
+            //test
             System.out.print("Enter words for the game (separated by spaces): ");
             String wordsInput = input.nextLine().toLowerCase();
             String[] words = wordsInput.split(" ");
