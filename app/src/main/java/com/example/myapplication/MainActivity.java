@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
             String secretWord = getRandomWord(words);
             int attempts = 6;
             StringBuilder guessedWord = new StringBuilder();
-
+            //hello test
             for (int i = 0; i < secretWord.length(); i++) {
                 guessedWord.append("_");
             }
